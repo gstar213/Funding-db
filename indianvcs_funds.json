@@ -1,0 +1,1634 @@
+[
+  {
+    "fund_name": "2am VC",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 500K",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "3one4 Capital",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 150K - $ 8M",
+    "ticket_min_usd": 150000.0,
+    "ticket_max_usd": 8000000.0
+  },
+  {
+    "fund_name": "4U Venture Partners",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 125K - $ 700K",
+    "ticket_min_usd": 125000.0,
+    "ticket_max_usd": 700000.0
+  },
+  {
+    "fund_name": "8i Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Fintech, Consumer, Enterprise, B2C / Ecommerce",
+    "ticket_display": "$ 250K - $ 2M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "8X Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Industrial / Iot / Robotics, Automotive / Ev, Biotech / Life Sciences, Climate / Sustainability, Deep Tech / Hard Science",
+    "ticket_display": "$ 350K - $ 850K",
+    "ticket_min_usd": 350000.0,
+    "ticket_max_usd": 850000.0
+  },
+  {
+    "fund_name": "100Unicorns",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic, Supply Chain / Logistics",
+    "ticket_display": "$250K - $2M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "247 VC",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 325K - $ 540K",
+    "ticket_min_usd": 325000.0,
+    "ticket_max_usd": 540000.0
+  },
+  {
+    "fund_name": "360 One Asset Management",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "a99 VC",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Industrial / Iot / Robotics, Government / Defence, Energy, Deep Tech / Hard Science, Advanced Manufacturing",
+    "ticket_display": "$ 5M - $ 8M",
+    "ticket_min_usd": 5000000.0,
+    "ticket_max_usd": 8000000.0
+  },
+  {
+    "fund_name": "Abyro Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Enterprise, Ai / Ml, Biotech / Life Sciences, Industrial / Iot / Robotics, Supply Chain / Logistics",
+    "ticket_display": "$ 200K - $ 750k",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 750000.0
+  },
+  {
+    "fund_name": "Accel India",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 250k - $ 50M+",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 50000000.0
+  },
+  {
+    "fund_name": "Advantedge Founders",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Automotive / Ev, Supply Chain / Logistics, Industrial / Iot / Robotics, Fintech, Energy",
+    "ticket_display": "$ 250K - $ 1.5M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 1500000.0
+  },
+  {
+    "fund_name": "Alkemi Growth Capital",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Biotech / Life Sciences, Healthcare/Medtech, Consumer",
+    "ticket_display": "$ 100K - $ 3M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "All In Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 200K - $ 500K",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "Alter Global",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 2M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "Alteria Capital",
+    "stages": "Series B, Series C, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 250K - $ 25M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 25000000.0
+  },
+  {
+    "fund_name": "Anchorage Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 30K - $ 250K",
+    "ticket_min_usd": 30000.0,
+    "ticket_max_usd": 250000.0
+  },
+  {
+    "fund_name": "Anicut capital",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 5M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Ankur Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 4M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 4000000.0
+  },
+  {
+    "fund_name": "Anthill Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 50K - $ 1M",
+    "ticket_min_usd": 50000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Antler India",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 200K - $ 500K",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "Arali Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Ai / Ml, Climate / Sustainability, Biotech / Life Sciences, Agritech / Food, Deep Tech / Hard Science",
+    "ticket_display": "$ 500K - $ 1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Archerman Capital",
+    "stages": "Series A, Series B",
+    "sectors": "Consumer, Enterprise, Fintech",
+    "ticket_display": "$ 3M - $ 10M",
+    "ticket_min_usd": 3000000.0,
+    "ticket_max_usd": 10000000.0
+  },
+  {
+    "fund_name": "Arkam Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Astir Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 50K - $ 1M",
+    "ticket_min_usd": 50000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Athera Venture Partners",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 3M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Atrium Angels",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 150K",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 150000.0
+  },
+  {
+    "fund_name": "Audacity VC",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Media & Entertainment, Ai / Ml, Consumer, Gaming, Ar / Vr",
+    "ticket_display": "$ 500K - $ 5M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "AUM Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 200K - $ 1M",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Avataar Ventures",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 10M - $ 50M",
+    "ticket_min_usd": 10000000.0,
+    "ticket_max_usd": 50000000.0
+  },
+  {
+    "fund_name": "Axilor Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 750K - $ 2M",
+    "ticket_min_usd": 750000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "BAce Capital",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 250K - $ 10M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 10000000.0
+  },
+  {
+    "fund_name": "BEENEXT",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 200K - $ 2.5M",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 2500000.0
+  },
+  {
+    "fund_name": "Bertelsmann India investments",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 3M - $ 20M",
+    "ticket_min_usd": 3000000.0,
+    "ticket_max_usd": 20000000.0
+  },
+  {
+    "fund_name": "Bessemer Venture Partners India",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Ai / Ml, B2C / Ecommerce, Consumer, Cyber Security, Enterprise",
+    "ticket_display": "$ 1M - $ 30M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 30000000.0
+  },
+  {
+    "fund_name": "Beyond Next Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Deeptech, Healthcare/Medtech, Climate / Sustainability, Saas / Devops / Marketplace",
+    "ticket_display": "$ 300K - $ 1.5M",
+    "ticket_min_usd": 300000.0,
+    "ticket_max_usd": 1500000.0
+  },
+  {
+    "fund_name": "Blinc Invest",
+    "stages": "Seed, Series A",
+    "sectors": "Fintech, Education, Healthcare/Medtech",
+    "ticket_display": "$ 1M - $ 4M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 4000000.0
+  },
+  {
+    "fund_name": "Blue Ashva Capital",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Bluehill VC",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Biotech / Life Sciences, Automotive / Ev, Climate / Sustainability, Deep Tech / Hard Science, Energy",
+    "ticket_display": "$ 1M - $ 2M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "BlueLotus Ventures",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 150K - $ 250K",
+    "ticket_min_usd": 150000.0,
+    "ticket_max_usd": 250000.0
+  },
+  {
+    "fund_name": "Blume Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 2M - $ 4M",
+    "ticket_min_usd": 2000000.0,
+    "ticket_max_usd": 4000000.0
+  },
+  {
+    "fund_name": "BoldCap",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Ai / Ml, Enterprise, Saas / Devops / Marketplace",
+    "ticket_display": "$ 500K - $ 1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Boundless Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Ai / Ml, Biotech / Life Sciences, Deep Tech / Hard Science, Consumer, Healthcare/Medtech",
+    "ticket_display": "$100k-$1M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "BYT Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Deep Tech / Hard Science",
+    "ticket_display": "$ 400K - $ 1.2M",
+    "ticket_min_usd": 400000.0,
+    "ticket_max_usd": 1200000.0
+  },
+  {
+    "fund_name": "Cactus Venture Partners",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 2M - $ 5M",
+    "ticket_min_usd": 2000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Campus Fund",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 1M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Capital 2B",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 250K - $ 3M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Capital A",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 1.5M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1500000.0
+  },
+  {
+    "fund_name": "Capria Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 3M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "CDM Capital",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 1M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Cedar Hill Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Enterprise, Fintech, Ai / Ml",
+    "ticket_display": "$ 500K - $ 1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Centre Court Capital",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Gaming, Health And Wellness",
+    "ticket_display": "$ 1M - $ 3M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Chakra Growth Fund",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 3M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Chanakya",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 50K",
+    "ticket_min_usd": null,
+    "ticket_max_usd": null
+  },
+  {
+    "fund_name": "Chandigarh Angels Network",
+    "stages": "Pre-Seed, Seed, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 50K - $ 250K",
+    "ticket_min_usd": 50000.0,
+    "ticket_max_usd": 250000.0
+  },
+  {
+    "fund_name": "Chimera Venture Capitals",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Gaming, Saas / Devops / Marketplace, Media & Entertainment",
+    "ticket_display": "$ 500k - $ 1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Chiratae Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Colossa Ventures LLP",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 3M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Dallas Venture Capital",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Ai / Ml, Cyber Security, Fintech, Saas / Devops / Marketplace",
+    "ticket_display": "$ 2M - $ 5M",
+    "ticket_min_usd": 2000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Day Zero Ventures",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 200K",
+    "ticket_min_usd": null,
+    "ticket_max_usd": null
+  },
+  {
+    "fund_name": "Dexter Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 50K -$ 400K",
+    "ticket_min_usd": 50000.0,
+    "ticket_max_usd": 400000.0
+  },
+  {
+    "fund_name": "Dholakia Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 1M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Dream Incubator India",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 3M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "DSG Consumer Partners",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Consumer, Travel / Hospitality, Health And Wellness, Agritech / Food",
+    "ticket_display": "$ 250K - $ 4M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 4000000.0
+  },
+  {
+    "fund_name": "DST Global",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 200K - $ 200M",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 200000000.0
+  },
+  {
+    "fund_name": "Eaglewings Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 500K",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "Earth Fund",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 1.5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 1500000.0
+  },
+  {
+    "fund_name": "Eight Roads Ventures",
+    "stages": "Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 5M - $ 40M",
+    "ticket_min_usd": 5000000.0,
+    "ticket_max_usd": 40000000.0
+  },
+  {
+    "fund_name": "Elev8 Venture Partners",
+    "stages": "Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 10M - $ 25M",
+    "ticket_min_usd": 10000000.0,
+    "ticket_max_usd": 25000000.0
+  },
+  {
+    "fund_name": "Emerge Capital",
+    "stages": "Series B, Series C, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 2.3M - $ 35M",
+    "ticket_min_usd": 2300000.0,
+    "ticket_max_usd": 35000000.0
+  },
+  {
+    "fund_name": "Endiya partners",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $3M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Enzia Ventures",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 250K - $ 1.5M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 1500000.0
+  },
+  {
+    "fund_name": "Equanimity Investments",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 3M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Equentis",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 700K - $ 3M",
+    "ticket_min_usd": 700000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Exfinity venture partners",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 4M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 4000000.0
+  },
+  {
+    "fund_name": "Eximius Ventures",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 500K",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "Faad",
+    "stages": "Pre-Seed, Seed, Series A, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 500K",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "FinSight Ventures",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Finvolve Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Deep Tech / Hard Science, Government / Defence, Industrial / Iot / Robotics, Agritech / Food",
+    "ticket_display": "$ 55K - $ 1M",
+    "ticket_min_usd": 55000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Fireside Ventures",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Healthcare/Medtech, Agritech / Food, B2C / Ecommerce",
+    "ticket_display": "$ 400K - $ 8M",
+    "ticket_min_usd": 400000.0,
+    "ticket_max_usd": 8000000.0
+  },
+  {
+    "fund_name": "Flourish ventures",
+    "stages": "Seed, Series A, Series B, Pre-Seed",
+    "sectors": "Fintech, Ai / Ml, Cyber Security",
+    "ticket_display": "$ 500K - $ 8M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 8000000.0
+  },
+  {
+    "fund_name": "FortyTwo.vc",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K",
+    "ticket_min_usd": null,
+    "ticket_max_usd": null
+  },
+  {
+    "fund_name": "Fundalogical Ventures",
+    "stages": "Series A, Series B",
+    "sectors": "Supply Chain / Logistics, Automotive / Ev, Energy, Industrial / Iot / Robotics, B2C / Ecommerce",
+    "ticket_display": "$ 2M - $ 3M",
+    "ticket_min_usd": 2000000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Gemba Capital",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 200K - $ 250K",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 250000.0
+  },
+  {
+    "fund_name": "Golden Sparrow",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$600K",
+    "ticket_min_usd": null,
+    "ticket_max_usd": null
+  },
+  {
+    "fund_name": "Good Capital",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "B2C / Ecommerce, Ai / Ml, Consumer",
+    "ticket_display": "$ 600K - $ 1M",
+    "ticket_min_usd": 600000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "gradCapital",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 40K",
+    "ticket_min_usd": null,
+    "ticket_max_usd": null
+  },
+  {
+    "fund_name": "Granite Asia",
+    "stages": "Series A, Series B, Series C, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 10M - $ 50M",
+    "ticket_min_usd": 10000000.0,
+    "ticket_max_usd": 50000000.0
+  },
+  {
+    "fund_name": "Grayscale Ventures",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Ai / Ml, Saas / Devops / Marketplace, Enterprise",
+    "ticket_display": "$ 125K - $ 1M",
+    "ticket_min_usd": 125000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "GrowthCap Ventures",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 250K - $ 750K",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 750000.0
+  },
+  {
+    "fund_name": "GrowX ventures",
+    "stages": "Seed, Series B",
+    "sectors": "Industrial / Iot / Robotics, Government / Defence, Enterprise, Deep Tech / Hard Science, Energy",
+    "ticket_display": "$ 800K - $ 1M",
+    "ticket_min_usd": 800000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Gruhas",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Climate / Sustainability, Deep Tech / Hard Science, Energy",
+    "ticket_display": "$ 1M - $ 5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "HealthQuad",
+    "stages": "Series A, Series B, Series C",
+    "sectors": "Healthcare/Medtech, Biotech / Life Sciences",
+    "ticket_display": "$5M - $15M",
+    "ticket_min_usd": 5000000.0,
+    "ticket_max_usd": 15000000.0
+  },
+  {
+    "fund_name": "Himalayan Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Fintech, Enterprise, Ai / Ml",
+    "ticket_display": "$ 50K - $ 100K",
+    "ticket_min_usd": 50000.0,
+    "ticket_max_usd": 100000.0
+  },
+  {
+    "fund_name": "Huddle Ventures",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "IAN Group (formerly Indian Angel Network)",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 3M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Ideaspring Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Biotech / Life Sciences, Deep Tech / Hard Science, Climate / Sustainability, Enterprise, Government / Defence",
+    "ticket_display": "$ 1.5M - $ 2M",
+    "ticket_min_usd": 1500000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "Incubate Fund Asia",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 300K - $ 1.5M",
+    "ticket_min_usd": 300000.0,
+    "ticket_max_usd": 1500000.0
+  },
+  {
+    "fund_name": "India Quotient",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 3.5M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 3500000.0
+  },
+  {
+    "fund_name": "Indian Silicon Valley",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 150K",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 150000.0
+  },
+  {
+    "fund_name": "Infinyte Club Angel Fund",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 50K - $ 200K",
+    "ticket_min_usd": 50000.0,
+    "ticket_max_usd": 200000.0
+  },
+  {
+    "fund_name": "Inflexor",
+    "stages": "Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $4M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 4000000.0
+  },
+  {
+    "fund_name": "Info Edge Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 5M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Innoven Capital",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 20M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 20000000.0
+  },
+  {
+    "fund_name": "Inuka Capital",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Deep Tech / Hard Science, Healthcare/Medtech, Consumer",
+    "ticket_display": "$ 250K - $ 300K",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 300000.0
+  },
+  {
+    "fund_name": "Inviga Healthcare Fund",
+    "stages": "Series A, Series B, Series C",
+    "sectors": "Biotech / Life Sciences, Healthcare/Medtech",
+    "ticket_display": "$ 3M - $ 8M",
+    "ticket_min_usd": 3000000.0,
+    "ticket_max_usd": 8000000.0
+  },
+  {
+    "fund_name": "Iron Pillar Fund",
+    "stages": "Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 8M - $ 12M",
+    "ticket_min_usd": 8000000.0,
+    "ticket_max_usd": 12000000.0
+  },
+  {
+    "fund_name": "iSeed",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 200K - $ 500K",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "ITI GO VC Fund",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 2M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "IvyCap Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "B2C / Ecommerce, Enterprise, Industrial / Iot / Robotics",
+    "ticket_display": "$ 500K - $ 10M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 10000000.0
+  },
+  {
+    "fund_name": "Java Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Deep Tech / Hard Science, Energy, Climate / Sustainability, Government / Defence, Biotech / Life Sciences",
+    "ticket_display": "$ 500K - $ 750K",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 750000.0
+  },
+  {
+    "fund_name": "JSW Ventures",
+    "stages": "Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 3M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "July Ventures",
+    "stages": "Series A, Series B, Series C",
+    "sectors": "Supply Chain / Logistics, Ai / Ml, Cyber Security, Energy, Enterprise",
+    "ticket_display": "$ 2M - $ 6M",
+    "ticket_min_usd": 2000000.0,
+    "ticket_max_usd": 6000000.0
+  },
+  {
+    "fund_name": "Jungle ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 3.5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 3500000.0
+  },
+  {
+    "fund_name": "Kae Capital",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 2.5M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 2500000.0
+  },
+  {
+    "fund_name": "Kalaari Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 5M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "LC Nueva",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 2M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "Lead Angels Fund",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 200K",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 200000.0
+  },
+  {
+    "fund_name": "Leo Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 2M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "Lok Capital",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 3M - $ 10M",
+    "ticket_min_usd": 3000000.0,
+    "ticket_max_usd": 10000000.0
+  },
+  {
+    "fund_name": "M Venture Partners",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Fintech, Healthcare/Medtech, Consumer, Ai / Ml, B2C / Ecommerce",
+    "ticket_display": "$ 250K - $ 3M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Macwise Capital",
+    "stages": "Pre-Seed, Seed, Series A, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 2M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "Malpani Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 1M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Mars Growth Capital",
+    "stages": "Series C, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 10M - $ 150M",
+    "ticket_min_usd": 10000000.0,
+    "ticket_max_usd": 150000000.0
+  },
+  {
+    "fund_name": "MarsShot.VC",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 50K - $ 100K",
+    "ticket_min_usd": 50000.0,
+    "ticket_max_usd": 100000.0
+  },
+  {
+    "fund_name": "Mela Ventures",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Deep Tech / Hard Science, Ai / Ml, Biotech / Life Sciences, Enterprise, Fintech",
+    "ticket_display": "$ 2M - $ 3M",
+    "ticket_min_usd": 2000000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Merak Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 1.5M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1500000.0
+  },
+  {
+    "fund_name": "MGA Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Fintech, Ai / Ml, Consumer",
+    "ticket_display": null,
+    "ticket_min_usd": null,
+    "ticket_max_usd": null
+  },
+  {
+    "fund_name": "Micelio Fund",
+    "stages": "Seed, Series A",
+    "sectors": "Automotive / Ev, Climate / Sustainability, Deep Tech / Hard Science, Energy, Industrial / Iot / Robotics",
+    "ticket_display": "$ 750K - $ 2M",
+    "ticket_min_usd": 750000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "Momentum Capital",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Climate / Sustainability, Deep Tech / Hard Science, Energy, Healthcare/Medtech, Automotive / Ev",
+    "ticket_display": "$ 100K - $ 250K",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 250000.0
+  },
+  {
+    "fund_name": "Multiply Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "NEDfi venture capital limited",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Agritech / Food, Energy, Healthcare/Medtech",
+    "ticket_display": "$ 75K - $ 600K",
+    "ticket_min_usd": 75000.0,
+    "ticket_max_usd": 600000.0
+  },
+  {
+    "fund_name": "Next Bharat Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Agritech / Food, Health And Wellness, Consumer",
+    "ticket_display": "$ 1M",
+    "ticket_min_usd": null,
+    "ticket_max_usd": null
+  },
+  {
+    "fund_name": "Nexus Venture Partners",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 2M - $ 10M",
+    "ticket_min_usd": 2000000.0,
+    "ticket_max_usd": 10000000.0
+  },
+  {
+    "fund_name": "Omnivore",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Agritech / Food, Biotech / Life Sciences, B2C / Ecommerce, Deep Tech / Hard Science, Fintech",
+    "ticket_display": "$ 2M - $ 8M",
+    "ticket_min_usd": 2000000.0,
+    "ticket_max_usd": 8000000.0
+  },
+  {
+    "fund_name": "Orios Venture Partners",
+    "stages": "Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 4M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 4000000.0
+  },
+  {
+    "fund_name": "Ortella Global Capital",
+    "stages": "Seed, Series A",
+    "sectors": "Agritech / Food, Ai / Ml, B2C / Ecommerce, Biotech / Life Sciences, Climate / Sustainability",
+    "ticket_display": "$ 500K - $ 2M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "OTP Ventures",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Consumer, Fintech, Healthcare/Medtech, Agritech / Food, Education",
+    "ticket_display": "$ 500K - $ 2M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "Panthera Growth Partners",
+    "stages": "Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 10M - $ 25M",
+    "ticket_min_usd": 10000000.0,
+    "ticket_max_usd": 25000000.0
+  },
+  {
+    "fund_name": "Paradigm Shift Capital",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 200K - $ 500K",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "Pavestone VC",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Deep Tech / Hard Science, Cyber Security, Ai / Ml, Enterprise, Government / Defence",
+    "ticket_display": "$ 5M - $ 20M",
+    "ticket_min_usd": 5000000.0,
+    "ticket_max_usd": 20000000.0
+  },
+  {
+    "fund_name": "Peak Sustainability Ventures",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Climate / Sustainability",
+    "ticket_display": "$ 1M - $ 5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "PeerCapital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Ai / Ml, B2C / Ecommerce, Consumer, Cyber Security, Deep Tech / Hard Science",
+    "ticket_display": "$ 500K - $ 2M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "Pegasus India Evolving Opportunities Fund",
+    "stages": "Series A, Series B, Series C",
+    "sectors": "Fintech, Healthcare/Medtech, Education, Deep Tech / Hard Science, Climate / Sustainability",
+    "ticket_display": "$ 500K - $ 1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Pentathlon Ventures",
+    "stages": "Seed, Series A",
+    "sectors": "Ai / Ml, Cyber Security, Fintech, Enterprise, Healthcare/Medtech",
+    "ticket_display": "$ 500K - $ 1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "pi Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 250k - $ 2.5M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 2500000.0
+  },
+  {
+    "fund_name": "Picus Capital",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 25M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 25000000.0
+  },
+  {
+    "fund_name": "Piper Serica Angel Fund",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 850K - $ 1.2M",
+    "ticket_min_usd": 850000.0,
+    "ticket_max_usd": 1200000.0
+  },
+  {
+    "fund_name": "Powerhouse Ventures",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Prath Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Agritech / Food, Consumer, B2B Commerce, Education, Healthcare/Medtech",
+    "ticket_display": null,
+    "ticket_min_usd": null,
+    "ticket_max_usd": null
+  },
+  {
+    "fund_name": "Pravega Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Prime Venture partners",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 3M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Prosus Ventures",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 100M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 100000000.0
+  },
+  {
+    "fund_name": "Rainmatter Capital",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Fintech, Deep Tech / Hard Science, Agritech / Food, Climate / Sustainability, Prop Tech/Real Estate",
+    "ticket_display": "$ 100K - $ 10M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 10000000.0
+  },
+  {
+    "fund_name": "Razorpay Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Saas / Devops / Marketplace, Fintech, Ai / Ml",
+    "ticket_display": "$ 150K - $ 1M",
+    "ticket_min_usd": 150000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Rebright Partners",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 300K - $ 1.2M",
+    "ticket_min_usd": 300000.0,
+    "ticket_max_usd": 1200000.0
+  },
+  {
+    "fund_name": "Riverwalk Holdings",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 2M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "Rockstud Capital",
+    "stages": "Seed, Series A",
+    "sectors": "Deep Tech / Hard Science, Industrial / Iot / Robotics, Climate / Sustainability",
+    "ticket_display": "$ 500K - $ 1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Roots Ventures",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1.1M - $ 1.6M",
+    "ticket_min_usd": 1100000.0,
+    "ticket_max_usd": 1600000.0
+  },
+  {
+    "fund_name": "Saama",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 3M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Sadev Ventures",
+    "stages": "Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 200K - $ 650K",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 650000.0
+  },
+  {
+    "fund_name": "Samarthya Investments",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 2.5M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 2500000.0
+  },
+  {
+    "fund_name": "SamVed Ventures",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 150K - $ 1M",
+    "ticket_min_usd": 150000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Sauce.vc",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Consumer, Health And Wellness, Travel / Hospitality",
+    "ticket_display": "$ 120K - $ 1.2M",
+    "ticket_min_usd": 120000.0,
+    "ticket_max_usd": 1200000.0
+  },
+  {
+    "fund_name": "Seafund",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Deep Tech / Hard Science, Ai / Ml, Cyber Security, Industrial / Iot / Robotics, Biotech / Life Sciences",
+    "ticket_display": "$ 300K - $ 500K",
+    "ticket_min_usd": 300000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "SenseAI",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$500K - $1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Sharrp Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "B2C / Ecommerce, Consumer, Healthcare/Medtech",
+    "ticket_display": "$ 500k - $ 2M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "Shastra VC",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Deep Tech / Hard Science, Climate / Sustainability, Ai / Ml",
+    "ticket_display": "$ 200K - $ 3.5M",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 3500000.0
+  },
+  {
+    "fund_name": "Siana Capital",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 3M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "SIG Venture Capital",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 3M - $ 35M",
+    "ticket_min_usd": 3000000.0,
+    "ticket_max_usd": 35000000.0
+  },
+  {
+    "fund_name": "Soonicorn Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 250K",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 250000.0
+  },
+  {
+    "fund_name": "Sorin Investments",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 2M - $ 8M",
+    "ticket_min_usd": 2000000.0,
+    "ticket_max_usd": 8000000.0
+  },
+  {
+    "fund_name": "Speciale Invest",
+    "stages": "Pre-Seed, Seed, Series A, Series B",
+    "sectors": "Deep Tech / Hard Science, Climate / Sustainability, Energy, Industrial / Iot / Robotics, Government / Defence",
+    "ticket_display": "$ 500K - $ 1M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Spring Marketing Capital",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Consumer, B2C / Ecommerce, Healthcare/Medtech",
+    "ticket_display": "$ 500K - $ 2M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "Stellaris Venture Partners",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 10M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 10000000.0
+  },
+  {
+    "fund_name": "Stride Ventures",
+    "stages": "Debt",
+    "sectors": "Consumer, Fintech, Climate / Sustainability",
+    "ticket_display": "$ 500K - $ 30M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 30000000.0
+  },
+  {
+    "fund_name": "SucSEED Indovation",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 1M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Sunicon Ventures",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 500K",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "Tanglin Venture Partners",
+    "stages": "Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 5M - $ 8M",
+    "ticket_min_usd": 5000000.0,
+    "ticket_max_usd": 8000000.0
+  },
+  {
+    "fund_name": "TDV Partners",
+    "stages": "Pre-Seed",
+    "sectors": "Consumer, Fintech, B2C / Ecommerce",
+    "ticket_display": "$ 100K - $ 300K",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 300000.0
+  },
+  {
+    "fund_name": "Theia Ventures",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Ai / Ml, Automotive / Ev, Biotech / Life Sciences, Climate / Sustainability, Deep Tech / Hard Science",
+    "ticket_display": "$ 250K - $ 1M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Times Internet Limited",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Ai / Ml, B2C / Ecommerce, Consumer, Education, Fintech",
+    "ticket_display": "$ 50K - $ 3M",
+    "ticket_min_usd": 50000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Titan Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 300K - $ 500K",
+    "ticket_min_usd": 300000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "Transition VC",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Climate / Sustainability, Industrial / Iot / Robotics, Automotive / Ev, Deep Tech / Hard Science, Energy",
+    "ticket_display": "$ 300K - $ 3M",
+    "ticket_min_usd": 300000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Trifecta Capital",
+    "stages": "Series A, Series B, Series C, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 30M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 30000000.0
+  },
+  {
+    "fund_name": "Turbostart",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 250K - $1 M",
+    "ticket_min_usd": 250000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Unicorn Indian Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Deep Tech / Hard Science, Industrial / Iot / Robotics, Biotech / Life Sciences, Climate / Sustainability, Government / Defence",
+    "ticket_display": "$ 1M - $ 3M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 3000000.0
+  },
+  {
+    "fund_name": "Unilever Ventures",
+    "stages": "Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 2M - $ 10M",
+    "ticket_min_usd": 2000000.0,
+    "ticket_max_usd": 10000000.0
+  },
+  {
+    "fund_name": "V3 Ventures",
+    "stages": "Pre-Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $ 5M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Valuable Partners",
+    "stages": "Series A, Series B, Series C, Debt",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Veltis Capital",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "B2B Commerce, Consumer, Deep Tech / Hard Science",
+    "ticket_display": "$ 200K - $ 600K",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 600000.0
+  },
+  {
+    "fund_name": "Ventana Ventures",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Gaming, Ar / Vr, Media & Entertainment, Consumer",
+    "ticket_display": "$ 130K",
+    "ticket_min_usd": null,
+    "ticket_max_usd": null
+  },
+  {
+    "fund_name": "VenturEast",
+    "stages": "Seed, Series A, Series B",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 4M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 4000000.0
+  },
+  {
+    "fund_name": "Vertex Ventures",
+    "stages": "Pre-Seed, Seed, Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 10M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 10000000.0
+  },
+  {
+    "fund_name": "Volt VC",
+    "stages": "Pre-Seed, Seed",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 50K - $ 250K",
+    "ticket_min_usd": 50000.0,
+    "ticket_max_usd": 250000.0
+  },
+  {
+    "fund_name": "WaterBridge ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "WEH Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 200K - $ 600K",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 600000.0
+  },
+  {
+    "fund_name": "Westbridge Capital",
+    "stages": "Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 10M - $ 500M",
+    "ticket_min_usd": 10000000.0,
+    "ticket_max_usd": 500000000.0
+  },
+  {
+    "fund_name": "White Whale Partners",
+    "stages": "Series A, Series B, Series C",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 1M - $ 5M",
+    "ticket_min_usd": 1000000.0,
+    "ticket_max_usd": 5000000.0
+  },
+  {
+    "fund_name": "Windrose Capital",
+    "stages": "Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 150K - $ 500K",
+    "ticket_min_usd": 150000.0,
+    "ticket_max_usd": 500000.0
+  },
+  {
+    "fund_name": "Xeed Ventures",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 500K - $2M",
+    "ticket_min_usd": 500000.0,
+    "ticket_max_usd": 2000000.0
+  },
+  {
+    "fund_name": "z21",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Ai / Ml, Saas / Devops / Marketplace, Industrial / Iot / Robotics, Government / Defence, Deep Tech / Hard Science",
+    "ticket_display": "$200K - $1M",
+    "ticket_min_usd": 200000.0,
+    "ticket_max_usd": 1000000.0
+  },
+  {
+    "fund_name": "Zephyr Peacock India",
+    "stages": "Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 2M - $ 10M",
+    "ticket_min_usd": 2000000.0,
+    "ticket_max_usd": 10000000.0
+  },
+  {
+    "fund_name": "Zeropearl VC",
+    "stages": "Pre-Seed, Seed, Series A",
+    "sectors": "Sector Agnostic",
+    "ticket_display": "$ 100K - $ 1M",
+    "ticket_min_usd": 100000.0,
+    "ticket_max_usd": 1000000.0
+  }
+]

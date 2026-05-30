@@ -1,0 +1,38 @@
+# Database (too large for git; users run `python main.py init && python main.py collect`)
+funding.db
+funding.db-shm
+funding.db-wal
+funding_rounds_export.csv
+
+# Logs
+*.log
+
+# Exports (generated on demand)
+exports/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Temp / scratch
+_tmp_*.py
+
+# Env
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,53 @@
+{
+  "title": "Global Funding Intelligence",
+  "description": "Self-updating database of startup funding rounds scraped from 15+ sources globally.",
+  "license": "Private",
+  "databases": {
+    "funding": {
+      "title": "Funding Rounds",
+      "description": "Every funding round collected from TechCrunch, Sifted, YourStory, e27, Google News, and more.",
+      "tables": {
+        "funding_rounds": {
+          "title": "Funding Rounds",
+          "description": "Each row is one funding round announcement.",
+          "sort_desc": "announced_date",
+          "size": 100,
+          "fts_table": "funding_rounds_fts",
+          "fts_pk": "rowid",
+          "facets": ["announced_year", "announced_month", "hq_country", "sector", "round_type", "stage", "region", "source_name"],
+          "columns": {
+            "id": "ID",
+            "company_name": "Company",
+            "company_domain": "Domain",
+            "description": "Description",
+            "hq_country": "Country",
+            "hq_city": "City",
+            "region": "Region",
+            "round_type": "Round",
+            "amount_display": "Amount",
+            "amount_usd": "Amount (USD)",
+            "stage": "Stage",
+            "sector": "Sector",
+            "sub_sector": "Sub-sector",
+            "lead_investor": "Lead Investor",
+            "investors_raw": "All Investors",
+            "founder_name": "Founder",
+            "founder_linkedin": "Founder LinkedIn",
+            "source_name": "Source",
+            "source_url": "Article URL",
+            "headline": "Headline",
+            "confidence": "Confidence",
+            "announced_date": "Date",
+            "collected_at": "Collected At"
+          },
+          "hidden_columns": ["content_hash", "valuation_usd", "currency", "founded_year"]
+        },
+        "collection_runs": {
+          "title": "Collection Runs",
+          "description": "Audit log of every data collection run.",
+          "sort_desc": "id"
+        }
+      }
+    }
+  }
+}
