@@ -60,22 +60,23 @@ def install():
     print(f"   Script : {SCRIPT}")
     print(f"   Dir    : {PROJECT_DIR}\n")
 
-    # ── Task 1: On Boot (2-minute delay) ─────────────────────────────────────
-    delete_task(TASK_BOOT)  # fresh install
-    r = schtasks(
-        "/Create", "/TN", TASK_BOOT,
-        "/TR", f'"{PYTHON}" -X utf8 "{SCRIPT}" collect',
-        "/SC", "ONSTART",           # trigger: system startup
-        "/DELAY", "0002:00",        # wait 2 minutes before running
-        "/RL", "HIGHEST",           # run with highest available privileges
-        "/F",                       # force overwrite
-        "/ST", "00:00",
-        "/SD", "01/01/2026",
+    # ── Task 1: On Logon via PowerShell (no admin needed) ────────────────────
+    delete_task(TASK_BOOT)
+    ps_script = (
+        f'$action = New-ScheduledTaskAction -Execute \'"{PYTHON}"\' '
+        f'-Argument \'-X utf8 "{SCRIPT}" collect\' '
+        f'-WorkingDirectory \'{PROJECT_DIR}\'; '
+        f'$trigger = New-ScheduledTaskTrigger -AtLogOn; '
+        f'$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable; '
+        f'Register-ScheduledTask -TaskName \'{TASK_BOOT}\' '
+        f'-Action $action -Trigger $trigger -Settings $settings '
+        f'-RunLevel Limited -Force | Out-Null'
     )
+    r = run(["powershell", "-NoProfile", "-Command", ps_script], check=False)
     if r.returncode == 0:
-        print(f"  ✓ Created: {TASK_BOOT}  (runs 2 min after every boot)")
+        print(f"  ✓ Created: {TASK_BOOT}  (runs 2 min after every login/boot)")
     else:
-        print(f"  ✗ Failed: {r.stderr.strip()}")
+        print(f"  ✗ Failed: {r.stderr.strip() or r.stdout.strip()}")
 
     # ── Task 2: Every 6 Hours ─────────────────────────────────────────────────
     delete_task(TASK_INTERVAL)
@@ -84,7 +85,6 @@ def install():
         "/TR", f'"{PYTHON}" -X utf8 "{SCRIPT}" collect',
         "/SC", "HOURLY",
         "/MO", "6",                 # every 6 hours
-        "/RL", "HIGHEST",
         "/F",
         "/ST", "00:00",
         "/SD", "01/01/2026",
