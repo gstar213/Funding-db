@@ -18,6 +18,7 @@ from urllib.parse import urlparse, urljoin
 import requests
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright, TimeoutError as PwTimeout
+from ddgs import DDGS
 
 logging.basicConfig(level=logging.WARNING)
 DB_PATH = Path(__file__).parent / "funding.db"
@@ -63,32 +64,41 @@ COMPANY_NOISE = {
 }
 
 # ── DuckDuckGo search for VC website ─────────────────────────────────────────
+SKIP_DOMAINS = {
+    "crunchbase", "linkedin", "tracxn", "twitter", "yourstory",
+    "inc42", "techcrunch", "wikipedia", "glassdoor", "ambitionbox",
+    "angellist", "wellfound", "indianvcs", "moneycontrol", "livemint",
+    "economictimes", "business-standard", "entrackr", "theKen", "vccircle",
+    "slideshare", "facebook", "instagram", "youtube", "medium", "substack",
+}
+
 def ddg_find_website(vc_name: str) -> str | None:
-    """Search DuckDuckGo Lite to find the VC's official website."""
-    query = f"{vc_name} venture capital india official site"
+    """Use ddgs library to find the VC's official website."""
+    query = f"{vc_name} venture capital india official website"
     try:
-        resp = requests.get(
-            "https://lite.duckduckgo.com/lite/",
-            params={"q": query},
-            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
-            timeout=10
-        )
-        soup = BeautifulSoup(resp.text, "html.parser")
-        # DDG Lite result links are in <a class="result-link">
-        for a in soup.select("a.result-link, td.result-snippet a, a[href*='http']"):
-            href = a.get("href", "")
-            if not href or "duckduckgo.com" in href or "google.com" in href:
+        results = list(DDGS().text(query, max_results=10))
+        for r in results:
+            href = r.get("href", "")
+            if not href:
                 continue
             parsed = urlparse(href)
             if parsed.scheme in ("http", "https") and parsed.netloc:
-                # Skip news/aggregator sites
-                skip = {"crunchbase", "linkedin", "tracxn", "twitter", "yourstory",
-                        "inc42", "techcrunch", "wikipedia", "glassdoor", "ambitionbox",
-                        "angellist", "wellfound", "indianvcs"}
-                if not any(s in parsed.netloc for s in skip):
+                if not any(s in parsed.netloc for s in SKIP_DOMAINS):
                     return f"{parsed.scheme}://{parsed.netloc}"
-    except Exception as e:
+    except Exception:
         pass
+
+    # Fallback: guess common domain patterns from the VC name
+    slug = re.sub(r"[^a-z0-9]", "", vc_name.lower())
+    for tld in [".com", ".in", ".vc", ".fund"]:
+        candidate = f"https://www.{slug}{tld}"
+        try:
+            r = requests.head(candidate, timeout=5, allow_redirects=True,
+                              headers={"User-Agent": "Mozilla/5.0"})
+            if r.status_code < 400:
+                return candidate
+        except Exception:
+            pass
     return None
 
 
@@ -273,6 +283,16 @@ if __name__ == "__main__":
 
         for i, (vc_name,) in enumerate(vcs, 1):
             print(f"[{i}/{len(vcs)}] {vc_name}")
+
+            # Resume check: skip if already scraped
+            already = conn.execute(
+                "SELECT COUNT(*) FROM vc_portfolios WHERE vc_name = ?", (vc_name,)
+            ).fetchone()[0]
+            if already > 0:
+                print(f"  Already scraped ({already} companies), skipping")
+                total_vcs_with_portfolio += 1
+                total_companies += already
+                continue
 
             # Step 1: Find website
             website = ddg_find_website(vc_name)
