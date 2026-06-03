@@ -20,4 +20,13 @@ ds = Datasette(
     },
 )
 
-app = ds.app()
+_asgi_app = ds.app()
+_started = False
+
+
+async def app(scope, receive, send):
+    global _started
+    if not _started:
+        await ds.invoke_startup()
+        _started = True
+    await _asgi_app(scope, receive, send)
