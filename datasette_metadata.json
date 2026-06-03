@@ -13,7 +13,7 @@
           "sort_desc": "announced_date",
           "size": 100,
           "fts_table": "funding_rounds_fts",
-          "fts_pk": "rowid",
+          "fts_pk": "id",
           "facets": ["announced_year", "announced_month", "hq_country", "sector", "round_type", "stage", "region", "source_name"],
           "columns": {
             "id": "ID",
@@ -41,6 +41,37 @@
             "collected_at": "Collected At"
           },
           "hidden_columns": ["content_hash", "valuation_usd", "currency", "founded_year"]
+        },
+        "vc_portfolios": {
+          "title": "VC Portfolio Companies",
+          "description": "Portfolio companies scraped directly from Indian VC firm websites.",
+          "sort_desc": "scraped_at",
+          "size": 100,
+          "fts_table": "vc_portfolios_fts",
+          "fts_pk": "id",
+          "facets": ["vc_name"],
+          "columns": {
+            "id": "ID",
+            "vc_name": "VC Firm",
+            "vc_website": "VC Website",
+            "portfolio_url": "Portfolio Page",
+            "company_name": "Portfolio Company",
+            "company_website": "Company Website",
+            "scraped_at": "Scraped At"
+          }
+        },
+        "indian_vcs": {
+          "title": "Indian VC Firms",
+          "description": "Master list of Indian venture capital firms.",
+          "size": 100,
+          "fts_table": "indian_vcs_fts",
+          "fts_pk": "id"
+        },
+        "vc_enrichments": {
+          "title": "VC Enrichments",
+          "description": "Matched VC portfolio companies to funding rounds.",
+          "sort_desc": "enriched_at",
+          "size": 100
         },
         "collection_runs": {
           "title": "Collection Runs",

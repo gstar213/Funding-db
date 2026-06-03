@@ -60,8 +60,161 @@ COMPANY_NOISE = {
     "portfolio", "companies", "startups", "investments", "home", "about",
     "team", "contact", "blog", "news", "press", "careers", "resources",
     "login", "signup", "get in touch", "learn more", "view all", "see all",
-    "apply", "apply now", "our portfolio", "exit",
+    "apply", "apply now", "our portfolio", "exit", "menu", "search",
+    "all", "none", "other", "filters", "sort", "reset", "load more",
+    "show more", "read more", "next", "previous", "back", "subscribe",
+    "newsletter", "privacy policy", "terms of service", "cookie policy",
+    "follow us", "get in touch", "pitch to us", "know more", "discover more",
+    "legal", "sitemap", "faq", "help", "support", "docs", "documentation",
+    "founder club", "join the", "insights", "updates", "pitch", "overview",
+    "mission", "vision", "values", "leadership", "people", "media",
+    "fund i", "fund ii", "fund iii", "fund iv", "fund v",
+    "agritech", "healthtech", "saas", "fintech", "edtech", "deeptech",
+    "consumer tech", "enterprise tech", "frontier", "advanced materials",
+    "biotech", "climate", "healthcare", "deep-tech", "fin-tech",
+    "active", "exited", "seed", "growth", "early stage", "late stage",
+    "by stage", "by sector", "name*", "email*", "website", "message",
+    "recent posts", "previous post", "next post", "leave a reply",
+    "cancel reply", "comment*", "archives", "categories", "tags",
 }
+
+# Regex for junk detection during scraping
+import re as _re
+_SCRAPE_JUNK_RE = _re.compile(
+    r"(Home|About\s*[Uu]s|Our\s*Team|Knowledge\s*Hub|Pitch\s*[Tt]o\s*Us|"
+    r"newsletter|subscribe|investor\s*relations|online\s*trading|"
+    r"entry\s*stage|focus\s*area|by\s+[A-Z]\w+|"
+    r"^\d{4}$|April\s+\d|May\s+\d|June\s+\d|July\s+\d|"
+    r"leave\s+a\s+reply|cancel\s+reply|acquired\s+by|"
+    r"exited\s+in\s+\d{4}|co-investors?:|add\s+another\s+company|"
+    r"create\s+free\s+account|discover\s+companies|competitive\s+data|"
+    r"Companies\(\d+\)|see\s+details|start\s+a\s+conversation|"
+    r"founder-first|straight\s+to\s+your\s+inbox|"
+    r"get\s+featured|industries|life\s+sciences$|geographic\s+reference|"
+    r"geopolitics\s+essays|government\s+policy|editorial\s+writing)",
+    _re.I
+)
+
+
+# ── Extract company names from a portfolio page ───────────────────────────────
+def extract_companies_from_html(html: str, base_url: str) -> list[dict]:
+    """Parse portfolio page HTML and extract company name + website.
+    
+    Uses a targeted approach:
+    1. Strip all non-content elements (nav, footer, forms, scripts)
+    2. Look for a portfolio-specific section first
+    3. Fall back to scanning external links only if no section found
+    4. Apply strict company-name validation
+    """
+    soup = BeautifulSoup(html, "html.parser")
+
+    # ── Step 1: Remove noise elements ────────────────────────────────────────
+    for tag in soup.find_all(["nav", "footer", "header", "form", "script",
+                               "style", "aside", "noscript", "iframe"]):
+        tag.decompose()
+
+    # Remove common sidebar/cookie/newsletter divs by class/id patterns
+    _noise_classes = re.compile(
+        r"(nav|footer|header|sidebar|cookie|banner|newsletter|subscribe|"
+        r"social|share|comment|search|breadcrumb|pagination|widget|"
+        r"menu|toolbar|modal|overlay|popup|toast|notification)", re.I
+    )
+    for tag in soup.find_all(True, {"class": _noise_classes}):
+        tag.decompose()
+    for tag in soup.find_all(True, {"id": _noise_classes}):
+        tag.decompose()
+
+    # ── Step 2: Find portfolio section ────────────────────────────────────────
+    _portfolio_patterns = re.compile(
+        r"(portfolio|companies|startups|investments|our.companies|"
+        r"invested|founders|ecosystem|cohort|batch)", re.I
+    )
+    portfolio_section = None
+    for tag in soup.find_all(True, {"class": _portfolio_patterns}):
+        # Must be a substantial section (not a single link)
+        if len(tag.get_text(strip=True)) > 100:
+            portfolio_section = tag
+            break
+    if not portfolio_section:
+        for tag in soup.find_all(True, {"id": _portfolio_patterns}):
+            if len(tag.get_text(strip=True)) > 100:
+                portfolio_section = tag
+                break
+
+    # Use portfolio section if found, otherwise full cleaned page
+    search_root = portfolio_section if portfolio_section else soup
+
+    companies = []
+    seen = set()
+    base_netloc = urlparse(base_url).netloc
+
+    # ── Strategy A: External links (most reliable signal) ─────────────────────
+    for a in search_root.find_all("a", href=True):
+        href = a.get("href", "").strip()
+        text = a.get_text(strip=True)
+
+        if not text or len(text) < 2 or len(text) > 60:
+            continue
+        if len(text.split()) > 6:
+            continue
+        if text.lower() in COMPANY_NOISE:
+            continue
+        if _SCRAPE_JUNK_RE.search(text):
+            continue
+        # Must be an external link (different domain)
+        if not href.startswith("http"):
+            continue
+        link_netloc = urlparse(href).netloc
+        if not link_netloc or link_netloc == base_netloc:
+            continue
+        # Skip known aggregator/news domains
+        if any(s in link_netloc for s in SKIP_DOMAINS):
+            continue
+
+        key = text.lower().strip()
+        if key not in seen:
+            seen.add(key)
+            companies.append({"company_name": text.strip(), "company_website": href})
+
+    # ── Strategy B: Heading tags in portfolio section ─────────────────────────
+    # Only run if we found a portfolio-specific section
+    if portfolio_section and len(companies) < 5:
+        for tag in portfolio_section.find_all(["h2", "h3", "h4", "strong", "b"]):
+            text = tag.get_text(strip=True)
+            if not text or len(text) < 2 or len(text) > 60:
+                continue
+            if len(text.split()) > 5:
+                continue
+            if text.lower() in COMPANY_NOISE:
+                continue
+            if _SCRAPE_JUNK_RE.search(text):
+                continue
+            # Must look like a proper noun (capital first letter + lowercase)
+            words = text.split()
+            has_proper = any(
+                len(w) >= 2 and w[0].isupper() and any(c.islower() for c in w[1:])
+                for w in words
+            )
+            if not has_proper:
+                continue
+            # Skip if all lowercase
+            if text == text.lower():
+                continue
+
+            # Try to find associated external link
+            company_url = None
+            a_parent = tag.find_parent("a")
+            if a_parent:
+                href = a_parent.get("href", "")
+                if href.startswith("http") and urlparse(href).netloc != base_netloc:
+                    company_url = href
+
+            key = text.lower().strip()
+            if key not in seen:
+                seen.add(key)
+                companies.append({"company_name": text.strip(), "company_website": company_url})
+
+    return companies[:150]  # cap at 150 per VC
 
 # ── DuckDuckGo search for VC website ─────────────────────────────────────────
 SKIP_DOMAINS = {
