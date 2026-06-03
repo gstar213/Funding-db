@@ -1,5 +1,4 @@
-# Database (too large for git; users run `python main.py init && python main.py collect`)
-funding.db
+# DB WAL/SHM temp files (not the main DB — funding.db IS committed)
 funding.db-shm
 funding.db-wal
 funding_rounds_export.csv

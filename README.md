@@ -45,25 +45,21 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Initialize the database
-
-```bash
-python -X utf8 main.py init
-```
-
-### 5. Run your first collection (~3–5 min)
-
-```bash
-python -X utf8 main.py collect
-```
-
-### 6. Open the browser UI
+### 4. Open the browser UI
 
 ```bash
 python -X utf8 main.py serve
 ```
 
 Visit **http://localhost:8001/funding/funding_rounds** to explore.
+
+> **That's it!** `funding.db` ships with the repo — you get 4,700+ historical rounds (2022–2026) immediately on clone, no backfill needed.
+
+### 5. (Optional) Run a fresh collection to get the latest rounds
+
+```bash
+python -X utf8 main.py collect
+```
 
 ---
 
@@ -245,7 +241,7 @@ funding-db/
 ├── _backfill_2025.py        # Historical backfill 2025–2026
 ├── _migrate.py              # DB migration: adds year/month columns
 │
-├── funding.db               # The database (created locally, not in git)
+├── funding.db               # The database (4,700+ rounds, committed to git)
 └── exports/                 # JSON/CSV exports (created on demand)
 ```
 
